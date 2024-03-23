@@ -1,0 +1,19 @@
+{
+  "name": "project00_calculator",
+  "version": "1.0.0",
+  "description": "Simple Calculator with two operands and one operator",
+  "main": "index.js",
+  "scripts": {
+    "test": "none"
+  },
+  "author": "Sadiq Musani",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.4.3"
+  },
+  "dependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/through": "^0.0.33",
+    "inquirer": "^8.0.0"
+  }
+}
