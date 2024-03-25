@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 "use strict";
 //import inquirer from "inquirer";
 var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
