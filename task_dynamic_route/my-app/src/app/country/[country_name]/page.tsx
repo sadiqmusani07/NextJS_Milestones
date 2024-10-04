@@ -21,7 +21,7 @@ const matchedCountry = countriesArray.find(
     ) :(
         <>
 
-            <h1>OOPS !!! "{params.country_name}" not found in the list </h1>
+            <h1>OOPS !!! {params.country_name} not found in the list </h1>
             <h1> please select b/w pakistan, afghanistan, india, china & bangladesh </h1>
         
 
