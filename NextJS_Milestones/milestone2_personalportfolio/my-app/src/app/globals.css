@@ -1,21 +1,88 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+}
+
+section {
+  padding: 50px 20px;
+}
+
+.projects-slider, .skills, .experience-slider {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+
+.projects-slider .project-card, .skills .skill-item, .experience-slider .experience-item {
+  flex: 0 0 auto;
+  width: 300px;
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  scroll-snap-align: start;
+}
+
+.projects-slider .project-card img, .skills .skill-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.projects-slider .project-card h3, .skills .skill-item h3 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.skills .skill-item {
+  text-align: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .projects-slider, .skills, .experience-slider {
+    flex-direction: column;
+    align-items: center;
+  }
 }
