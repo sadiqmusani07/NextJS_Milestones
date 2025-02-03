@@ -1,0 +1,29 @@
+{
+  "bin": {
+    "calculator": "bin/index.js"
+  },
+  "name": "project00_calculator",
+  "version": "1.0.0",
+  "description": "Simple Calculator with two operands and one operator",
+  "main": "index.js",
+  "scripts": {
+    "test": "none"
+  },
+  "author": "Sadiq Musani",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "typescript": "^5.4.3"
+  },
+  "dependencies": {
+    "@types/through": "^0.0.33",
+    "inquirer": "^8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sadiqmusani07/governorinitiative/Project00_calculator"
+  },
+  "keywords": [
+    "none"
+  ]
+}

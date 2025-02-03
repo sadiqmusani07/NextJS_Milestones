@@ -4,15 +4,19 @@
 # Ignore .env files everywhere
 **/.env
 
-# Ignore .local files
+# Ignore .local files (common for local development setups)
 **/*.local
 
-# Ignore build output
+# Ignore lock files (optional based on your preference)
+**/package-lock.json
+**/yarn.lock
+
+# Ignore build output (for Next.js or other frameworks)
 **/.next/
 
 # Ignore log files
 **/*.log
 
-# Ignore system files
+# Ignore temporary system files
 .DS_Store
 Thumbs.db
