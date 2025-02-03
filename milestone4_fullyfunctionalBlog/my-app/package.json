@@ -12,14 +12,14 @@
     "@fontsource/geist": "^5.0.1",
     "@fontsource/roboto": "^5.1.1",
     "@sanity/image-url": "^1.1.0",
-    "@sanity/vision": "^3.68.3",
+    "@sanity/vision": "^3.72.1",
     "create-next-app": "^14.2.22",
     "next": "^14.2.5",
-    "next-sanity": "^9.8.32",
+    "next-sanity": "^9.8.47",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "sanity": "^3.68.3",
-    "styled-components": "^6.1.13"
+    "sanity": "^3.72.1",
+    "styled-components": "^6.1.14"
   },
   "devDependencies": {
     "@types/node": "^20",
